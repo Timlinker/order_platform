@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/commonlibs" />
+            <option value="$PROJECT_DIR$/deliveryservice" />
+            <option value="$PROJECT_DIR$/orderservice" />
+            <option value="$PROJECT_DIR$/paymentservice" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/deliveryservice" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/deliveryservice" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/orderservice" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/orderservice" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paymentservice" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paymentservice" />
           </set>
         </option>
       </GradleProjectSettings>
