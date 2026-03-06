@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: admin
+    username: admin
+    url: jdbc:postgresql://localhost:5433/orders
+  application:
+    name: orderservice
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+server:
+  port: 8080
+
