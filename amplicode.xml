@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AmplicodePersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="deliveryservice.main" name="Default">
+        <packages>
+          <package value="dev.petproject.deliveryservice" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="orderplatform.deliveryservice.main" name="Default">
+        <packages>
+          <package value="dev.petproject.deliveryservice" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="orderservice.main" name="Default">
+        <packages>
+          <package value="dev.petproject.orderservice" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="orderplatform.orderservice.main" name="Default">
+        <packages>
+          <package value="dev.petproject.orderservice" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="paymentservice.main" name="Default">
+        <packages>
+          <package value="dev.petproject.paymentservice" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="orderplatform.paymentservice.main" name="Default">
+        <packages>
+          <package value="dev.petproject.paymentservice" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
