@@ -1,4 +1,4 @@
-package dev.petproject.orderservice.mapper;
+package dev.petproject.orderservice.domain.mapper;
 
 import dev.petproject.orderservice.api.dto.OrderDto;
 import dev.petproject.orderservice.api.dto.request.CreateOrderRequestDto;

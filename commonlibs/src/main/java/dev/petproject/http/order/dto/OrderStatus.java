@@ -1,4 +1,4 @@
-package dev.petproject.orderservice.domain.entity;
+package dev.petproject.http.order.dto;
 
 public enum OrderStatus
 {

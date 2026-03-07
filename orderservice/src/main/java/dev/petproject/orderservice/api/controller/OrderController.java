@@ -3,7 +3,7 @@ package dev.petproject.orderservice.api.controller;
 import dev.petproject.orderservice.api.dto.OrderDto;
 import dev.petproject.orderservice.api.dto.request.CreateOrderRequestDto;
 import dev.petproject.orderservice.domain.service.OrderProcessor;
-import dev.petproject.orderservice.mapper.OrderMapper;
+import dev.petproject.orderservice.domain.mapper.OrderMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

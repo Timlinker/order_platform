@@ -1,4 +1,4 @@
-package dev.petproject.paymentservice.mapper;
+package dev.petproject.paymentservice.domain.mapper;
 
 import dev.petproject.paymentservice.api.dto.CreatePaymentRequestDto;
 import dev.petproject.paymentservice.api.dto.CreatePaymentResponseDto;

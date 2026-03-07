@@ -1,4 +1,4 @@
-package dev.petproject.orderservice.api.dto;
+package dev.petproject.http.order.dto;
 
 
 import lombok.Data;

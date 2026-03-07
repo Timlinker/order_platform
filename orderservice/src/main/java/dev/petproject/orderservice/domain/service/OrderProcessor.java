@@ -5,7 +5,7 @@ import dev.petproject.orderservice.domain.entity.OrderEntity;
 import dev.petproject.orderservice.domain.entity.OrderItemEntity;
 import dev.petproject.orderservice.domain.entity.OrderStatus;
 import dev.petproject.orderservice.domain.repository.OrderJpaRepository;
-import dev.petproject.orderservice.mapper.OrderMapper;
+import dev.petproject.orderservice.domain.mapper.OrderMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package dev.petproject.paymentservice.domain.entity;
+package dev.petproject.http.payment;
 
 public enum PaymentStatus
 {

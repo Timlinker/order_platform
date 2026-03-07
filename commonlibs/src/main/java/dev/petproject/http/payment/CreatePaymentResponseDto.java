@@ -1,14 +1,15 @@
-package dev.petproject.paymentservice.api.dto;
+package dev.petproject.http.payment;
 
-import dev.petproject.paymentservice.domain.entity.PaymentMethod;
+
 import lombok.Data;
 
 import java.math.BigDecimal;
 
 @Data
-public class CreatePaymentRequestDto {
+public class CreatePaymentResponseDto {
+    private Long paymentId;
     private Long orderId;
     private PaymentMethod paymentMethod;
     private BigDecimal amount;
-
+    private PaymentStatus paymentStatus;
 }
